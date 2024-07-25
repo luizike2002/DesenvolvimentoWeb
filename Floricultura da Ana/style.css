@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, rgba(255, 240, 240, 0.951) 16.62%, rgb(240, 240, 255) 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #f8f9fa; 
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Algerian", cursive;
+    color: #b22222; 
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #b22222; 
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: "Alasassy Caps", cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #b22222;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: "Algerian", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #b22222;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #b22222; 
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Algerian", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #8b0000; 
+}
+
+.conteudo-principal-imagem {
+    height: 460px; 
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #b22222; 
+    padding-top: 48px;
+    font-family: "Alasassy Caps", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #b22222; 
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: "Algerian", cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: #b22222; 
+    text-align: center;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #b22222; 
+    background-color: #f8f9fa; 
+}
+
+.rodape-imagem {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
